@@ -4,3 +4,39 @@
     font-optical-sizing: auto;
     font-style: normal;
   }
+ 
+
+/* shared style */
+        .display-flex{
+            display: flex;
+        }
+
+  /* Header Style */
+  .bg-light{
+    background-color: rgba(255, 144, 14, 0.1);
+  }
+
+  /* Nav related Style */
+  .nav-bar{
+    justify-content: space-between;
+  }
+.brand-name{
+   
+
+}
+  .nav-item{
+    list-style: none;
+    margin-right: 30px;
+    
+  }
+  .nav-link{
+    text-decoration: none;
+    font-size: 18px;
+font-weight: 500;
+color:rgb(66, 66, 66);
+  }
+  .nav-bar, .banner{
+    width: 1440px;
+    margin: 0 auto;
+
+  }
