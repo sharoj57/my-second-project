@@ -19,6 +19,7 @@
           color:white;
           font-size: 20px;
           font-weight: 600;
+          margin-bottom: 20px;
         }
 
   /* Header Style */
@@ -49,16 +50,17 @@ font-weight: 500;
 color:rgb(66, 66, 66);
   }
   .nav-bar, .banner{
-    width: 1440px;
+    width: 95vw;
     margin: 0 auto;
 
   }
   /* Banner Related Style */
   .banner-content{
-    width: 850px;
+    width: 70vw;
     margin: 0 auto;
     text-align: center;
     margin-bottom: 50px;
+    
   }
   .banner-title{
     font-size: 4rem;
@@ -72,7 +74,12 @@ color:rgb(66, 66, 66);
   body{
     background-color: red;
   }
-  .nav-bar ,.nav-links{
+  .nav-bar ,.nav-links, .nav-link{
     flex-direction: column;
+    
+
+  }
+  .banner{
+    margin-bottom: 10px;
   }
 }
